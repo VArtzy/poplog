@@ -1,6 +1,6 @@
 # **PopLog** - Console Log as Toast Notifications
 
-**PopLog** is a lightweight JavaScript package that transforms `console.log` outputs into browser-friendly toast notifications. It makes debugging more interactive by displaying log messages as toasts on the screen, without the need to open developer tools.
+**PopLog** is a simple, effective and lightweight JavaScript package that transforms `console.log` outputs into browser-friendly toast notifications. It makes debugging more interactive by displaying log messages as toasts on the screen, without the need to open developer tools.
 
 ## Features
 - Converts `console.log` messages into styled toasts.
