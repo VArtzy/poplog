@@ -15,8 +15,8 @@
 ### **For Project-Level Usage**
 
 1. Download the `poplog.js` script and include it in your project:
-   ```html
-   <script src="path/to/poplog.js"></script>
+   ```js
+   import 'poplog';
    ```
 
 2. Or, use the following CDN to include it directly in your HTML:
