@@ -1,0 +1,25 @@
+{
+  "name": "poplog",
+  "version": "1.0.0",
+  "description": "Console.log directly on popup without going to devtools again!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VArtzy/poplog.git"
+  },
+  "keywords": [
+    "development-tools",
+    "logging",
+    "log",
+    "devtools"
+  ],
+  "author": "Farrel Nikoson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VArtzy/poplog/issues"
+  },
+  "homepage": "https://github.com/VArtzy/poplog#readme"
+}
