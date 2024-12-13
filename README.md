@@ -10,7 +10,7 @@
 
 ## Installation
 
-#### Warning: please install as devDependecies so you can ignore this package on production using npm i --production and dont forget to removeimport when your app ready to production or handling it runtime.
+#### Warning: please install as devDependecies so you can ignore this package on production using npm i --production and dont forget to removeimport when your app ready to production or handling it runtime. And remember this is browser env package.
 
 ### **For Project-Level Usage**
 

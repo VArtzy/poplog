@@ -1,6 +1,6 @@
 {
   "name": "poplog",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Console.log directly on popup without going to devtools again!",
   "main": "index.js",
   "scripts": {
