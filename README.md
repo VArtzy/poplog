@@ -10,6 +10,8 @@
 
 ## Installation
 
+#### Warning: please install as devDependecies so you can ignore this package on production using npm i --production and dont forget to removeimport when your app ready to production or handling it runtime.
+
 ### **For Project-Level Usage**
 
 1. Download the `poplog.js` script and include it in your project:
