@@ -1,8 +1,13 @@
 // Add a toast container to the DOM
 (function initializeToastLogger() {
-  if (!document.getElementById('toast-container')) {
+    const containerId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+        const r = Math.random() * 16 | 0 // 0 - 15
+        const v = c === 'x' ? r : (r & 0x3 | 0x8) // 0 - 3 | 8 - 11
+        return v.toString(16) // 0 - f
+    })
+  if (!document.getElementById(containerId)) {
     const container = document.createElement('div');
-    container.id = 'toast-container';
+    container.id = containerId;
     container.style.position = 'fixed';
     container.style.bottom = '20px';
     container.style.right = '20px';
@@ -12,7 +17,7 @@
 
   // Toast display function
   function showToast(message) {
-    const container = document.getElementById('toast-container');
+    const container = document.getElementById(containerId);
     const toast = document.createElement('div');
     toast.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
     toast.style.color = 'white';
