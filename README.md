@@ -2,8 +2,6 @@
 
 **PopLog** is a simple, effective and lightweight JavaScript package that transforms `console.log` outputs into browser-friendly toast notifications. It makes debugging more interactive by displaying log messages as toasts on the screen, without the need to open developer tools.
 
-![PopLog Screenshot Example](https://raw.githubusercontent.com/VArtzy/HostImage/refs/heads/main/Screenshot_16-12-2024_04143_localhost.jpeg)
-
 ## Features
 - Converts `console.log` messages into styled toasts.
 - Simple to use and integrates with any web project.
@@ -12,7 +10,10 @@
 
 ## Installation
 
-#### Warning: please install as devDependecies so you can ignore this package on production using npm i --production and dont forget to removeimport when your app ready to production or handling it runtime. And remember this is browser env package.
+**Install as a development dependency**:  
+```bash
+npm install poplog --save-dev
+```
 
 ### **For Project-Level Usage**
 
